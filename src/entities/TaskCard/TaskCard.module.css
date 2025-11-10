@@ -23,10 +23,10 @@
   color: #29231d;
   display: flex;
   text-align: left;
-  // justify-content: center;
-  // align-items: start;
-  // justify-items: start;
-  // align-content: start
+  /* justify-content: center; */
+  /* align-items: start; */
+  /* justify-items: start; */
+  /* align-content: start */
 }
 .top {
   display: flex;
@@ -40,8 +40,8 @@
   font-size: 5px;
 }
 .arrow {
-  // background: none;
-  // border: none;
+  /* background: none; */
+  /* border: none; */
   font-size: 10px;
   cursor: pointer;
   color: #777;

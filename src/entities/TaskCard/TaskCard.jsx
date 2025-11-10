@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./TaskCard.module.scss";
+import styles from "./TaskCard.module.css";
 
-function TaskCard() {
-  let task = {
-    title: "Тестовая таска на проверку",
-    description: "Да просто Батыр Гей",
-    time: "01.11.2025",
-  };
+function TaskCard({ task }) {
+  // let task = {
+  //   title: "Тестовая таска на проверку",
+  //   description: "Да просто Батыр Гей",
+  //   time: "01.11.2025",
+  // };
   return (
     <div className={styles.card}>
       <div className={styles.top}>

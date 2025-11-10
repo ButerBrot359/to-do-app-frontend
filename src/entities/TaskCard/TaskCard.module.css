@@ -1,0 +1,81 @@
+.card {
+  background-color: #f9edc8;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 16px;
+  width: 260px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+  color: #29231d;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.title {
+  margin: 0;
+  font-size: 24px;
+  color: #29231d;
+  display: flex;
+  text-align: left;
+  /* justify-content: center; */
+  /* align-items: start; */
+  /* justify-items: start; */
+  /* align-content: start */
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.star {
+  font-size: 15px;
+}
+.date {
+  font-size: 5px;
+}
+.arrow {
+  /* background: none; */
+  /* border: none; */
+  font-size: 10px;
+  cursor: pointer;
+  color: #777;
+}
+.arrow:hover {
+  color: #333;
+}
+.description {
+  font-size: 14px;
+  color: #555;
+  margin-top: 15px;
+  display: flex;
+  justify-content: start;
+}
+.bot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.time {
+  font-size: 15px;
+  color: #999;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 0;
+}
+.avatars {
+  display: flex;
+  gap: 4px;
+
+  img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+}
